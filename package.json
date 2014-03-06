@@ -1,11 +1,10 @@
 {
   "name": "framesnips",
   "main": "./lib/framesnips",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "A short description of your package",
-  "activationEvents":
-  [
+  "activationEvents": [
     "bs:nav",
     "bs:nav-tabs",
     "bs:nav-tabs+justified",
@@ -43,6 +42,5 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
