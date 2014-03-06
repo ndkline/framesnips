@@ -7,8 +7,8 @@ module.exports =
         atom.workspaceView.command "bs:nav-tabs+justified", => @bs_nav_tabs_justified()
 
         atom.workspaceView.command "bs:nav-pills", => @bs_nav_pills()
-        atom.workspaceView.command "bs:nav-pills +justified", => @bs_nav_pills_justified()
-        atom.workspaceView.command "bs:nav-pills +stacked", => @bs_nav_pills_stacked()
+        atom.workspaceView.command "bs:nav-pills+justified", => @bs_nav_pills_justified()
+        atom.workspaceView.command "bs:nav-pills+stacked", => @bs_nav_pills_stacked()
 
         atom.workspaceView.command "bs:nav_add_dropdown", => @bs_nav_add_dropdown()
 
@@ -17,8 +17,8 @@ module.exports =
 
         #    Pagination
         atom.workspaceView.command "bs:pagination", => @bs_pagination()
-        atom.workspaceView.command "bs:pagination +large", => @bs_pagination_large()
-        atom.workspaceView.command "bs:pagination +small", => @bs_pagination_small()
+        atom.workspaceView.command "bs:pagination+large", => @bs_pagination_large()
+        atom.workspaceView.command "bs:pagination+small", => @bs_pagination_small()
 
         #    Pager
         atom.workspaceView.command "bs:pager", => @bs_pager()
@@ -37,10 +37,10 @@ module.exports =
         atom.workspaceView.command "bs:alert-warning", => @bs_alert_warning()
         atom.workspaceView.command "bs:alert-danger", => @bs_alert_danger()
 
-        atom.workspaceView.command "bs:alert-success +dismissable", => @bs_alert_success_dismissable()
-        atom.workspaceView.command "bs:alert-info +dismissable", => @bs_alert_info_dismissable()
-        atom.workspaceView.command "bs:alert-warning +dismissable", => @bs_alert_warning_dismissable()
-        atom.workspaceView.command "bs:alert-danger +dismissable", => @bs_alert_danger_dismissable()
+        atom.workspaceView.command "bs:alert-success+dismissable", => @bs_alert_success_dismissable()
+        atom.workspaceView.command "bs:alert-info+dismissable", => @bs_alert_info_dismissable()
+        atom.workspaceView.command "bs:alert-warning+dismissable", => @bs_alert_warning_dismissable()
+        atom.workspaceView.command "bs:alert-danger+dismissable", => @bs_alert_danger_dismissable()
 
         atom.workspaceView.command "bs:alert_add_link", => @bs_alert_add_link()
 
