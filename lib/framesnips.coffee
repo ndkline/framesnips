@@ -49,6 +49,9 @@ module.exports =
         atom.workspaceView.command "bs:progress-bar_label", => @bs_progressbar_label()
 
         atom.workspaceView.command "bs:progress-bar_success", => @bs_progressbar_success()
+        atom.workspaceView.command "bs:progress-bar_info", => @bs_progressbar_info()
+        atom.workspaceView.command "bs:progress-bar_warning", => @bs_progressbar_warning()
+        atom.workspaceView.command "bs:progress-bar_danger", => @bs_progressbar_danger()
 
         #    Add
         atom.workspaceView.command "bs:add_container", => @bs_add_container()
