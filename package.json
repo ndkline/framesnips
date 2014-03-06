@@ -38,7 +38,7 @@
     "bs:add_badge",
     "bs:add_page-header"
   ],
-  "repository": "https://github.com/atom/framesnips",
+  "repository": "https://github.com/ndkline/framesnips",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
