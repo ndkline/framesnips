@@ -1,0 +1,48 @@
+{
+  "name": "framesnips",
+  "main": "./lib/framesnips",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents":
+  [
+    "bs:nav",
+    "bs:nav-tabs",
+    "bs:nav-tabs+justified",
+    "bs:nav-pills",
+    "bs:nav-pills +justified",
+    "bs:nav-pills +stacked",
+    "bs:nav_add_dropdown",
+    "bs:breadcrumbs",
+    "bs:pagination",
+    "bs:pagination +large",
+    "bs:pagination +small",
+    "bs:pager",
+    "bs:pager_alligned",
+    "bs:jumbotron-rounded",
+    "bs:jumbotron-not-rounded",
+    "bs:thumbnail",
+    "bs:alert-success",
+    "bs:alert-info",
+    "bs:alert-warning",
+    "bs:alert-danger",
+    "bs:alert-success +dismissable",
+    "bs:alert-info +dismissable",
+    "bs:alert-warning +dismissable",
+    "bs:alert-danger +dismissable",
+    "bs:alert_add_link",
+    "bs:progress-bar",
+    "bs:progress-bar_label",
+    "bs:progress-bar_success",
+    "bs:add_container",
+    "bs:add_badge",
+    "bs:add_page-header"
+  ],
+  "repository": "https://github.com/atom/framesnips",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
